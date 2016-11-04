@@ -1,0 +1,27 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("hello world!");
+		System.out.println(pattern(10));
+	}
+
+	public static String pattern ( int n) {
+        //Happy Coding ^_^
+        if (n<1) return "";
+        else {
+           String ans = new String("");
+           for (int i = 0; i<n; i++) {
+              int m = n-i;
+              String row = new String("");
+              for (int j = m; j>0; j--) row += j;
+              ans += row;
+              ans += "\n";
+           }
+           return ans;
+        }
+   }
+	
+}
+

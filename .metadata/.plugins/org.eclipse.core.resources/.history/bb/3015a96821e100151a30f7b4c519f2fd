@@ -1,0 +1,18 @@
+
+public class Test {
+	
+	private int[][] id;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("hello world!");
+		id = new int[3][3];
+		id[3][1] = {1};
+		
+		System.out.println(id[3][1]);
+		
+	}
+
+	
+	
+}

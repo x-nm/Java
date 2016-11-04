@@ -1,0 +1,18 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("hello world!");
+		int n = 1 & 1;
+		int a = 1 | 1;
+		int p = 10 & 10;
+		
+		System.out.println(n+","+m+","+p);
+		
+	}
+
+	
+	
+}
+http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=150
